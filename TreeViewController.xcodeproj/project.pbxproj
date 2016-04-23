@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F21E88FF1CCB7AA30086574F /* TreeViewNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F21E88FE1CCB7AA30086574F /* TreeViewNode.m */; };
+		F2778B1B1CCA7116000DA4CB /* city.json in Resources */ = {isa = PBXBuildFile; fileRef = F2778B1A1CCA7116000DA4CB /* city.json */; };
 		F27BC5911CC8754700F93FA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27BC5901CC8754700F93FA1 /* AppDelegate.swift */; };
 		F27BC5931CC8754700F93FA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27BC5921CC8754700F93FA1 /* ViewController.swift */; };
-		F27BC5961CC8754700F93FA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27BC5941CC8754700F93FA1 /* Main.storyboard */; };
 		F27BC5981CC8754800F93FA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27BC5971CC8754800F93FA1 /* Assets.xcassets */; };
 		F27BC59B1CC8754800F93FA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27BC5991CC8754800F93FA1 /* LaunchScreen.storyboard */; };
 		F27BC5A61CC8754800F93FA1 /* TreeViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27BC5A51CC8754800F93FA1 /* TreeViewControllerUITests.swift */; };
+		F27BC5B61CC8766300F93FA1 /* TreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F27BC5B51CC8766300F93FA1 /* TreeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +28,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F21E88FD1CCB7AA30086574F /* TreeViewNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeViewNode.h; sourceTree = "<group>"; };
+		F21E88FE1CCB7AA30086574F /* TreeViewNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeViewNode.m; sourceTree = "<group>"; };
+		F2778B1A1CCA7116000DA4CB /* city.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = city.json; sourceTree = "<group>"; };
 		F27BC58D1CC8754700F93FA1 /* TreeViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27BC5901CC8754700F93FA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F27BC5921CC8754700F93FA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F27BC5951CC8754700F93FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F27BC5971CC8754800F93FA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F27BC59A1CC8754800F93FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F27BC59C1CC8754800F93FA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F27BC5A11CC8754800F93FA1 /* TreeViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreeViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27BC5A51CC8754800F93FA1 /* TreeViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeViewControllerUITests.swift; sourceTree = "<group>"; };
 		F27BC5A71CC8754800F93FA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F27BC5B31CC8766300F93FA1 /* TreeViewController-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TreeViewController-Bridging-Header.h"; sourceTree = "<group>"; };
+		F27BC5B41CC8766300F93FA1 /* TreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeViewController.h; sourceTree = "<group>"; };
+		F27BC5B51CC8766300F93FA1 /* TreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +86,11 @@
 			children = (
 				F27BC5901CC8754700F93FA1 /* AppDelegate.swift */,
 				F27BC5921CC8754700F93FA1 /* ViewController.swift */,
-				F27BC5941CC8754700F93FA1 /* Main.storyboard */,
 				F27BC5971CC8754800F93FA1 /* Assets.xcassets */,
 				F27BC5991CC8754800F93FA1 /* LaunchScreen.storyboard */,
 				F27BC59C1CC8754800F93FA1 /* Info.plist */,
+				F27BC5B21CC875E800F93FA1 /* TreeViewController */,
+				F2778B1A1CCA7116000DA4CB /* city.json */,
 			);
 			path = TreeViewController;
 			sourceTree = "<group>";
@@ -94,6 +102,18 @@
 				F27BC5A71CC8754800F93FA1 /* Info.plist */,
 			);
 			path = TreeViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		F27BC5B21CC875E800F93FA1 /* TreeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F27BC5B41CC8766300F93FA1 /* TreeViewController.h */,
+				F27BC5B51CC8766300F93FA1 /* TreeViewController.m */,
+				F27BC5B31CC8766300F93FA1 /* TreeViewController-Bridging-Header.h */,
+				F21E88FD1CCB7AA30086574F /* TreeViewNode.h */,
+				F21E88FE1CCB7AA30086574F /* TreeViewNode.m */,
+			);
+			path = TreeViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,9 +199,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2778B1B1CCA7116000DA4CB /* city.json in Resources */,
 				F27BC59B1CC8754800F93FA1 /* LaunchScreen.storyboard in Resources */,
 				F27BC5981CC8754800F93FA1 /* Assets.xcassets in Resources */,
-				F27BC5961CC8754700F93FA1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +220,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F27BC5931CC8754700F93FA1 /* ViewController.swift in Sources */,
+				F27BC5B61CC8766300F93FA1 /* TreeViewController.m in Sources */,
+				F21E88FF1CCB7AA30086574F /* TreeViewNode.m in Sources */,
 				F27BC5911CC8754700F93FA1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,14 +245,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F27BC5941CC8754700F93FA1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F27BC5951CC8754700F93FA1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F27BC5991CC8754800F93FA1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -331,10 +345,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TreeViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = app.yyc.TreeViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TreeViewController/TreeViewController/TreeViewController-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -342,10 +359,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TreeViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = app.yyc.TreeViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TreeViewController/TreeViewController/TreeViewController-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -390,6 +409,7 @@
 				F27BC5AC1CC8754800F93FA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F27BC5AD1CC8754800F93FA1 /* Build configuration list for PBXNativeTarget "TreeViewControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +418,7 @@
 				F27BC5AF1CC8754800F93FA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
